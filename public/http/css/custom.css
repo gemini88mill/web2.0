@@ -82,3 +82,50 @@ footer .glyphicon {
     text-decoration: none;
     background-color: #710909 !important;
 }
+
+.jumbotron {
+    background-color: #0E3B43;
+    color: #D0B8AC;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    letter-spacing: 1px;
+}
+
+.text-btn {
+    color: #D0B8AC;
+}
+
+.prettyPrintButton {
+    font-family: Oxygen, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.bg-resume {
+    background-color: #0E3B43;
+    color: #F9EBE0;
+    padding-top: 50px;
+}
+
+.prettyPrint-header {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.prettyPrint-header2 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.prettyPrint-header3 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.prettyPrint-header4 {
+    letter-spacing: 1px;
+    font-size: 12px;
+}
