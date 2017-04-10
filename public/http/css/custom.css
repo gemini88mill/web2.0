@@ -129,3 +129,7 @@ footer .glyphicon {
     letter-spacing: 1px;
     font-size: 12px;
 }
+
+.pad-me {
+    padding-bottom: 15px;
+}
