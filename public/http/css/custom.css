@@ -133,3 +133,13 @@ footer .glyphicon {
 .pad-me {
     padding-bottom: 15px;
 }
+
+.prettyPrint-header-projects {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.prettyPrint-projects {
+
+}
