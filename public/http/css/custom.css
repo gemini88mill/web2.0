@@ -130,6 +130,7 @@ footer .glyphicon {
     font-size: 12px;
 }
 
+<<<<<<< HEAD
 
 @media (max-width: 600px) {
     .carousel-caption {
@@ -137,3 +138,18 @@ footer .glyphicon {
     }
 }
 
+=======
+.pad-me {
+    padding-bottom: 15px;
+}
+
+.prettyPrint-header-projects {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.prettyPrint-projects {
+
+}
+>>>>>>> 418fbf3c6481f6b6a3849a72792c3f19b0893e33
