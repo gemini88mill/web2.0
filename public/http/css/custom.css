@@ -35,7 +35,7 @@ footer .glyphicon {
 .bg-1 {
     background-color: #DCEDFF;
     padding-top: 50px;
-    color: #202c59;
+    color: #202c59 !important;
 }
 
 .bg-2 {
@@ -54,6 +54,7 @@ footer .glyphicon {
     letter-spacing: 2px;
     padding-right: 15px;
     padding-top: 15px;
+
 }
 
 .h2-mod {
@@ -103,7 +104,7 @@ footer .glyphicon {
 
 .bg-resume {
     background-color: #fdfffc;
-    color: #000000;
+    color: #000000 !important; ;
     padding-top: 50px;
 }
 
@@ -146,6 +147,7 @@ footer .glyphicon {
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 16px;
+    color: #202c59 !important;
 }
 
 .prettyPrint-projects {
@@ -161,3 +163,23 @@ footer .glyphicon {
 }
 
 * { color:#ffffff; text-decoration: none;}
+
+.prettyPrint-light {
+    font-family: Oxygen, sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-right: 15px;
+    padding-top: 15px;
+    color: #202c59 !important;
+}
+
+.h2-mod-light {
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #202c59;
+}
+
+.hover-png {
+    background-color: transparent !important;
+    border: none;
+}

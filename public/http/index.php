@@ -1,33 +1,16 @@
+<?php include("nav_footer.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="typewriter.js"></script>
+
+    <?php load_meta(); ?>
+
+    <link rel="stylesheet" type="text/css" href="public/http/css/custom.css"/>
     <title>Index</title>
 </head>
 
-<body class="bg-1">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Raphael Miller</a>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="project.html">Projects</a></li>
-            </ul>
-        </div>
-    </nav>
+<?php navbar(array("active","","","")); ?>
 
     <!--Start carousel-->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -45,7 +28,7 @@
                 <img src="assets/cabbagesinner.jpg" alt="New York">
                 <div class="carousel-caption">
                     <h1 class="typewriter">
-                        <a href="" class="typewrite" data-period="2000" data-type='[ "Cabbage & Condoms" ]'>
+                        <a href="" class="typewrite" data-period="6000" data-type='[ "Cabbage & Condoms" ]'>
                             <span class="wrap"></span>
                         </a>
                     </h1>
@@ -56,7 +39,7 @@
                 <img src="assets/chicagosearstower.jpg" alt="Chicago">
                 <div class="carousel-caption">
                     <h1 class="typewriter">
-                        <a href="" class="typewrite" data-period="1000" data-type='[ "Sears Tower, Chicago, IL" ]'>
+                        <a href="" class="typewrite" data-period="6000" data-type='[ "Sears Tower, Chicago, IL" ]'>
                             <span class="wrap"></span>
                         </a>
                     </h1>
@@ -67,7 +50,7 @@
                 <img src="assets/koreaband.jpg" alt="Los Angeles">
                 <div class="carousel-caption">
                     <h1 class="typewriter">
-                        <a href="" class="typewrite" data-period="2000" data-type='[ "Hondae District, Seoul, ROK" ]'>
+                        <a href="" class="typewrite" data-period="6000" data-type='[ "Hondae District, Seoul, ROK" ]'>
                             <span class="wrap"></span>
                         </a>
                     </h1>
@@ -94,10 +77,10 @@
             <div class="col-sm-4 ">
             </div>
             <div class="col-sm-4">
-                <h2 class="h2-mod">
+                <h2 class="h2-mod-light">
                     About Me
                 </h2>
-                <p class="prettyPrint">
+                <p class="prettyPrint-light">
                     A mild mannered computer science major trying to make it through my major, one segmentation fault
                     at a time. Websites, Databasing and anywhere in between.
                 </p>
@@ -147,33 +130,30 @@
             </div>
             <div class="col-sm-3">
                 <h1 class="h1-mod">Where to Contact</h1>
-                <div class="btn btn-group">
-                    <a href="#" class="hover-png">
-                        <img src="png/facebook_alt.png" class="img-responsive"></a>
-                    <a href="https://www.facebook.com/gemini88mill" class="hover-png">
-                        <img src="png/twitter_alt.png" class="img-responsive"></a>
-                    <a href="https://twitter.com/gemini88mill" class="hover-png">
-                        <img src="png/github_alt.png" class="img-responsive"></a>
-                    <a href="https://github.com/gemini88mill" class="hover-png" id="hover">
-                        <img src="png/linkedin_alt.png" class="img-responsive"></a>
-                    <a href="https://www.linkedin.com/in/raphael-miller-947a8a85/" class="hover-png">
-                        <img src="png/rss.png" class="img-responsive"></a>
-                    <a href="#" class="hover-png">
+                <div class="btn btn-group-sm btn-group">
+                    <a href="https://www.facebook.com/gemini88mill" class="btn btn-default hover-png">
+                        <img src="png/facebook_alt.png" class="img-responsive">
                     </a>
+                    <a href="https://www.linkedin.com/in/raphael-miller-947a8a85/" class=" btn btn-primary hover-png" id="hover">
+                        <img src="png/linkedin_alt.png" class="img-responsive">
+                    </a>
+                    <a href="https://twitter.com/gemini88mill" class="btn btn-primary hover-png">
+                        <img src="png/twitter_alt.png" class="img-responsive">
+                    </a>
+                    <a href="https://github.com/gemini88mill" class="btn btn-primary hover-png">
+                        <img src="png/github_alt.png" class="img-responsive">
+                    </a>
+
                 </div>
             </div>
             <div class="col-sm-5">
+
             </div>
         </div>
     </div>
 
+<?php footer(); ?>
 
-    <footer class="container-fluid text-center">
-        <a href="index.html" title="To Top">
-            <span class="glyphicon glyphicon-chevron-up"></span>
-        </a>
-        <p>Website created by Raphael Miller <a href="#">Back to top</a></p>
-    </footer>
 
 </body>
 </html>
