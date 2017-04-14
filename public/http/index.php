@@ -126,7 +126,7 @@
     <div class="container-fluid bg-3">
         <div class="row">
             <div class="col-sm-4">
-                <img src="assets/UCFbw.jpg" class="img-responsive img-rounded card">
+                <img src="assets/meandnatchan.jpg" class="img-responsive img-rounded card">
             </div>
             <div class="col-sm-3">
                 <h1 class="h1-mod">Where to Contact</h1>
