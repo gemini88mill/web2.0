@@ -111,7 +111,7 @@
                     last two on my list before i reach my thirties. Time is running out so I have to find a good way
                     of making money on my way over. With today's technology its possible to telecommute to work and with
                     any luck the telecommuting trend can continue during my career, if not I can always pack up and move
-                    to a new area.
+                    to a new area. <br>
                 </p>
             </div>
             <div class="col-sm-4">
