@@ -5,8 +5,6 @@
 <head>
 
     <?php load_meta(); ?>
-
-    <link rel="stylesheet" type="text/css" href="public/http/css/custom.css"/>
     <title>Index</title>
 </head>
 

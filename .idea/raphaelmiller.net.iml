@@ -12,12 +12,10 @@
     <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/composer" />
-          <root url="file://$MODULE_DIR$/vendor/twbs/bootstrap" />
+          <root url="file:///etc/php/7.1/cli" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/composer" />
-          <root url="file://$MODULE_DIR$/vendor/twbs/bootstrap" />
+          <root url="file:///etc/php/7.1/cli" />
         </SOURCES>
       </library>
     </orderEntry>
