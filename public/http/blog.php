@@ -12,8 +12,12 @@
 <?php  navbar(array("","","active","")); ?>
 
 
-<div class="jumbotron">
-    <img src="assets/planenight.jpg">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="assets/planenight.jpg">
+        </div>
+    </div>
 </div>
 <div class="container-fluid">
     <div class="row">
